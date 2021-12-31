@@ -2,9 +2,87 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Prjeto com bootstrapt</title>
+    <title>Projeto com bootstrapt</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <p> Projeto com bootstrap</p>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a class="navbar-brand" href="#">
+            <img src="img/GLStudio.png" alt="logoGlobalLabs" width="220" height="80">
+        </a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#fazemos">O que fazemos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>     
+            </ul>
+        </div>
+    </nav>
+
+    <section id="quemsomos">
+        <div class="container-fluid text-center margin quem-somos">
+            <h3>Quem somos</h3>
+            <img src="img/nature2.jpg" alt="natureza2" class="rounded-circle" width="400" height="400">
+            <h3>Somos amantes da natureza, totalmente dispostos a mudar o mundo !</h3>
+        </div>
+    </section>
+
+    <section id="fazemos">
+        <div class="container-fluid text-center margin fazemos">
+            <h3>O que fazemos</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/nature1.jpg" alt="mobile" height="400" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/nature3.jpg" alt="rio" height="400" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/nature4.jpg" alt="elefante" height="400" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Monitoramento aéreo de grandes extensões territoriais, fornecendo dados em tempo real.</p>
+                        <img src="img/drone.jpg" alt="monitoramento" height="400" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Educação ambiental e conscientização de jovens e adultos em empresas e universidades.</p>
+                        <img src="img/refloresta.jpg" alt="reflorestamento" height="400" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Desenvolvimento de softwares e "tecnologias verdes" para os mais diversos setores da economia.</p>
+                        <img src="img/assistencia.jpg" alt="assistencia" height="400" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Gil César</p>
+    </footer>
 </body>
 </html>
